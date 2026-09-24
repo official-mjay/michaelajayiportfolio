@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8f3ef"/><stop offset="1" stop-color="#e9dfdc"/></linearGradient>
+  <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffdfc"/><stop offset="1" stop-color="#eadfdc"/></linearGradient>
+  <linearGradient id="bag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffaf7"/><stop offset="1" stop-color="#ead8d7"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="20"/></filter>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<path d="M0 760 C300 700 500 840 800 760 S1300 700 1600 770" fill="none" stroke="#d7cbc6" stroke-width="3" opacity=".55"/>
+<path d="M0 815 C300 760 500 900 850 805 S1300 770 1600 830" fill="none" stroke="#d7cbc6" stroke-width="2" opacity=".35"/>
+<ellipse cx="490" cy="735" rx="390" ry="70" fill="#6b4853" opacity=".20" filter="url(#shadow)"/>
+<ellipse cx="1160" cy="740" rx="330" ry="65" fill="#6b4853" opacity=".18" filter="url(#shadow)"/>
+
+<!-- Cup -->
+<g>
+  <path d="M180 350 Q180 300 230 292 L735 292 Q785 300 785 350 L760 640 Q750 710 675 730 L290 730 Q215 710 205 640Z" fill="url(#cup)" stroke="#d4c5c2" stroke-width="5"/>
+  <ellipse cx="482" cy="305" rx="302" ry="65" fill="#fffdfc" stroke="#d4c5c2" stroke-width="5"/>
+  <ellipse cx="482" cy="307" rx="255" ry="42" fill="#9d315d"/>
+  <ellipse cx="482" cy="307" rx="235" ry="30" fill="#6d183b" opacity=".6"/>
+  <path d="M755 410 C910 380 950 510 840 595 C810 618 780 610 750 590" fill="none" stroke="#d4c5c2" stroke-width="42"/>
+  <path d="M770 430 C875 415 900 510 825 560 C805 574 785 568 766 556" fill="none" stroke="#eee5e2" stroke-width="20"/>
+  <g transform="translate(270 420)">
+    <path d="M105 0 C40 45 25 115 105 160 C185 115 170 45 105 0Z" fill="none" stroke="#b52d62" stroke-width="8"/>
+    <text x="105" y="86" text-anchor="middle" font-family="Georgia,serif" font-size="42" font-weight="700" fill="#b52d62">P&amp;C</text>
+    <text x="105" y="125" text-anchor="middle" font-family="Georgia,serif" font-size="27" font-weight="700" fill="#8f234f">Pearls &amp; Crafts</text>
+    <text x="105" y="153" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing="4" fill="#b52d62">FAITH-BASED JOURNEY</text>
+  </g>
+  <path d="M235 355 Q250 325 280 320" fill="none" stroke="#fff" stroke-width="12" opacity=".65"/>
+</g>
+
+<!-- Bag -->
+<g>
+  <path d="M910 250 L1400 250 L1460 750 L850 750Z" fill="url(#bag)" stroke="#d1bfbd" stroke-width="5"/>
+  <path d="M1400 250 L1460 285 L1460 750 L1400 750Z" fill="#d9c3c4" opacity=".65"/>
+  <path d="M990 260 C980 80 1110 55 1175 260" fill="none" stroke="#9d315d" stroke-width="22" stroke-linecap="round"/>
+  <path d="M1220 260 C1210 80 1340 55 1405 260" fill="none" stroke="#9d315d" stroke-width="22" stroke-linecap="round"/>
+  <g transform="translate(1020 405)">
+    <path d="M190 0 C105 58 90 150 190 210 C290 150 275 58 190 0Z" fill="none" stroke="#b52d62" stroke-width="10"/>
+    <text x="190" y="115" text-anchor="middle" font-family="Georgia,serif" font-size="58" font-weight="700" fill="#b52d62">P&amp;C</text>
+    <text x="190" y="166" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="700" fill="#8f234f">Pearls &amp; Crafts</text>
+    <text x="190" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" letter-spacing="5" fill="#b52d62">FAITH-BASED JOURNEY</text>
+  </g>
+  <path d="M900 300 L950 720" stroke="#fff" stroke-width="18" opacity=".35"/>
+</g>
+<text x="800" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" letter-spacing="6" fill="#9d315d">BRAND APPLICATION · PACKAGING</text>
+<text x="800" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#292225">Pearls &amp; Crafts — Branded Cup &amp; Paper Bag</text>
+</svg>
